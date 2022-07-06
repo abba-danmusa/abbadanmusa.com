@@ -1,0 +1,725 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='description' content='agency, ajax, clean, creative, free, ')
+  meta(name='keywords' content='freelance, new, personal, photographers, portfolio, 	agency portfolio, clean portfolio, colourful, creative agency, creative portfolio, creative portfolio, flat design, freelancer portfolio, hosted fonts, lightweight, metro, modern portfolio, monster, porfolio, portfolio')
+  meta(name='viewport' content='initial-scale=1, maximum-scale=1')
+  // Title
+  title Abba Danmusa | Software Developer
+  // Favicon add
+  link(rel='shortcut icon' type='image/gif' href='/images/snowman.png')
+  // Bootstrap
+  link(rel='stylesheet' href='/css/bootstrap.min.css')
+  // pagepiling css
+  link(rel='stylesheet' href='/css/slick.css')
+  // magnific-popup.cs
+  link(rel='stylesheet' href='/css/magnific-popup.css')
+  // owl css
+  link(rel='stylesheet' href='/css/owl.carousel.min.css')
+  link(rel='stylesheet' href='/css/owl.theme.default.min.css')
+  // animate css
+  link(rel='stylesheet' href='/css/animate.css')
+  //- link(rel='stylesheet' href='/css/flaticon.css')
+  // Fontawesom
+  script(src="https://kit.fontawesome.com/c45e9a09c6.js" crossorigin="anonymous")
+  // Font Famely
+  // reset
+  link(rel='stylesheet' href='/css/reset.css')
+  // style.css
+  link(rel='stylesheet' href='/css/style.css')
+  // responsive.css
+  link(rel='stylesheet' href='/css/responsive.css')
+// preloader area Start
+#preloader
+  #status
+    .sk-folding-cube
+      .sk-cube1.sk-cube
+      .sk-cube2.sk-cube
+      .sk-cube4.sk-cube
+      .sk-cube3.sk-cube
+// preloader area end
+// Header area Start
+header#heder-one
+  nav.navbar.navbar-expand-lg.fixed-top.navber-one-area
+    .container
+      a.navbar-brand(href='/')
+        img(src='/images/logo.png' alt='img')
+      button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarContent' aria-controls='navbarContent' aria-expanded='false' aria-label='Toggle navigation')
+        i.fa-solid.fa-bars
+      #navbarContent.collapse.navbar-collapse
+        ul#nav-toggle.navbar-nav.ml-auto
+          li.nav-item.dropdown
+            a.nav-link.active(href='#home')
+              | Home 
+              span.sr-only (current)
+              i.fas.fa-angle-down
+            //- .dropdown-content
+            //-   a(href='index.html') Home 01
+            //-   a(href='index-2.html') Home 02
+            //-   a(href='index-3.html') Home 03
+          li.nav-item
+            a.nav-link.active(href='#about') About
+          li.nav-item
+            a.nav-link.active(href='#service') Service
+          li.nav-item
+            a.nav-link.active(href='#my-work') Portfolio
+          li.nav-item.dropdown
+            a.nav-link.active(href='#blog-area-one')
+              | Blog 
+              i.fas.fa-angle-down
+            //- .dropdown-content
+            //-   a(href='blog.html') Blog Grid
+            //-   a(href='blog-single.html') Blog-Single
+            //-   a(href='404.html') Error Page
+          li.nav-item
+            a.nav-link.active(href='#footer-one') Contact
+  .mini-sidebar.text-center
+    .burger-bar
+      a#bar(href='#!')
+        i.fa-solid.fa-bars
+    .search-icon
+      a(href='#search')
+        i.fas.fa-search
+    .haier-me-btn
+      a.btn-2.side-btn(href='#footer-one') Hire Me 
+    .soical-side-icon
+      a(href='#!')
+        i.fab.fa-linkedin-in
+      a(href='#!')
+        i.fab.fa-instagram
+      a(href='#!')
+        i.fab.fa-twitter
+      a(href='#!')
+        i.fab.fa-facebook-f
+  #search
+    button.close(type='button') &times;
+    form
+      input(type='search' value='' placeholder='Search Here')
+      button.btn.submit-btn(type='submit') Search
+// Header area  End
+// Banner area Start
+
+section.banner-black
+  
+  .shap-1
+    img(src='/images/shape/shap-2.png' alt='img')
+  .shap-2
+    img(src='/images/shape/shap-1.png' alt='img')
+  .shap-3
+    img(src='/images/shape/shap-3.png' alt='img')
+  #particles-js
+  .container(style='background-color: transparent')
+    .row
+      .col-lg-8.col-md-12.col-sm-12.col-12
+        .banner-black-details
+          .banner-small-title
+            p Hi there!
+          .banner-black-heading
+            h1
+              | I&rsquo;m 
+              span#typed-strings
+                b Abba Danmusa
+                b Software Developer
+                b Web Developer
+                b Mobile Developer
+              span#typed
+            h3
+              | A Software Developer with vast skills &amp; experience
+              //- A product designer who is curious about human behaviour &amp; user experiences.
+          .about-black-button(style='z-index: 1029')
+            a.btn.btn-1.btn-lg(href='#footer-one' style='z-index: 1029') Hire Me
+            a.btn.btn-2.btn-lg(href='#my-work') view work
+// Banner area  End
+
+// About area Start
+section#about
+  .container
+    .row
+      .col-lg-4.col-md-6.col-sm-12.col-12
+        .about-side-img
+          img(src='/images/about.jpg' alt='')
+          //- #particle-image(data-params-src='/javascripts/modules/params.json')
+      .col-lg-8.col-md-6.col-sm-12.col-12
+        .about-wrapper
+          .content-box
+            p About
+            h2 About me
+          .about-details
+            p
+              | Enthusiastic Software Developer with a background in project and, team management, and more. Skilled in working under pressure and adapting to new situations and challenges to best enhance organizational brand. I am curious, driven, motivated to learn and grow.
+              //- I am a professional at UI/UX, Vectorization, T-shirt, Business card, LOGO, Line Art, Icon, Photo Edit, and Poster, Banner Designer. I have 5 years Photoshop and illustrator experience to take your project to completion with 100% satisfaction.
+            p
+              | I am available for any freelance job.
+              //- I am a permanent worker on Upwork, Freelancer, Fiverr and available 24/7
+            img.margin-top-50(src='/images/sign.png' alt='img')
+            .about-black-button
+              a.btn.btn-1.about-btn-one(href='/cv/abdullahi-danmusa-resume.pdf' Download) Download cv
+              a.btn.btn-2(href='#my-work') view work
+// About area end
+// Skill area Start
+section#skill-area
+  .container
+    .row
+      .col-lg-6.col-md-12.col-sm-12.col-12
+        .content-box
+          p Expertise
+          h2 Special Skills
+        .wrapper
+          .skill
+            p HTML5
+            .skill-bar.skill1.wow.slideInLeft.animated
+              span.skill-count1 95%
+          .skill
+            p CSS3
+            .skill-bar.skill2.wow.slideInLeft.animated
+              span.skill-count2 85%
+          .skill
+            p JAVASCRIPT
+            .skill-bar.skill3.wow.slideInLeft.animated
+              span.skill-count3 85%
+          .skill
+            p REACT
+            .skill-bar.skill4.wow.slideInLeft.animated
+              span.skill-count4 80%
+      .col-lg-6.col-md-12.col-sm-12.col-12
+        .backend-area
+          h1 BACKEND
+        .row.margin-top-100
+          .col-md-4
+          .col-md-4.col-sm-6
+            .progress.blue.text-center
+              span.progress-left
+                span.progress-bar
+              span.progress-right
+                span.progress-bar
+              .progress-value
+                | 90%
+                span(style='left: 30%') NODE
+          .col-md-4.col-sm-6
+            .progress.yellow
+              span.progress-left
+                span.progress-bar
+              span.progress-right
+                span.progress-bar
+              .progress-value
+                | 80%
+                span TENSORFLOW
+        .row
+          .col-md-4
+          .col-md-4.col-sm-6
+            .progress.blue
+              span.progress-left
+                span.progress-bar
+              span.progress-right
+                span.progress-bar
+              .progress-value
+                | 90%
+                span(style='left: 10%') MONGODB
+          .col-md-4.col-sm-6
+            .progress.yellow
+              span.progress-left
+                span.progress-bar
+              span.progress-right
+                span.progress-bar
+              .progress-value
+                | 80%
+                span(style='left: 20%') OTHERS
+// Skill area end
+// Service area Start
+section#service
+  .container
+    .service-img-hed
+      h1 Service
+    .row
+      .col-lg-6.col-md-12.col-sm-12.col-12
+        .client-thumb-wrap
+          .client-img-slider
+            .single-testi-item
+              .client-img
+                img(src='/images/html.png' alt='')
+              .author-testi-details
+                h3 Web Developer
+                p
+                  | You define what you need it to do—the problems and challenges it needs to solve to accelerate and fuel the growth you know you're capable of, and it will do just that. 
+                  //- You define your integration points so you can connect all your teams and systems, streamlining your processes, and paving the way to the top by making scaling easier and organic.
+            .single-testi-item
+              .client-img
+                img(src='/images/html.png' alt='')
+              .author-testi-details
+                h3 Mobile Developer
+                p
+                  | You define your integration points so you can connect all your teams and systems, streamlining your processes, and paving the way to the top by making scaling easier and organic.
+            .single-testi-item
+              .client-img
+                img(src='/images/ui.png' alt='')
+              .author-testi-details
+                h3 Web Designer
+                p
+                  | You want one that takes the time to understand you; to fully understand what drives you, what your mission is, why you started your company in the first place.
+            .single-testi-item
+              .client-img
+                img(src='/images/html.png' alt='')
+              .author-testi-details
+                h3 UI/UX Designer
+                p
+                  | You want to take your company to the next level - to grow and then continue to grow by creating an incredible and memorable user experience that makes you stay.
+// Service area end
+// My work area Start
+section#my-work
+  .container
+    .center-content-box.text-center
+      p.top-heading Portfolio
+      h2 My Work Gallery
+      p.para-box
+        | There comes a time for all ambitious, driven entrepreneurs, where software development becomes a priority, or at least, a major issue that occupies your busy, mile-a-minute professional consciousness.
+    #portfolio-main-page
+      .container
+        .filtering.filters-button-group
+          //- ul.text-center
+            li.active(data-filter='*') All
+            li(data-filter='.ux') UI/UX
+            li(data-filter='.HTML') HTML
+            li(data-filter='.Photoshop') Photoshop
+            li(data-filter='.Development') Web Development
+      .portfolio-item.grid
+        .row
+          .col-lg-4.col-md-6.col-sm-6.col-12.no-padding.work-item.HTML.Photoshop.element-item
+            .team-main-img.team-img.text-center
+              .work-img-items
+                img.team-imges(src='/images/my-work/1.png' alt='img')
+              .overlay-content
+                .inner-content.text
+                  a.colom(href='/images/my-work/1.png')
+                    i.fas.fa-link
+                  h3 Dashboard Design
+          .col-lg-4.col-md-6.col-sm-6.col-12.no-padding.work-item.HTML.Development.element-item
+            .team-main-img.team-img.text-center
+              .work-img-items
+                img.team-imges(src='/images/my-work/2.png' alt='img')
+              .overlay-content
+                .inner-content.text
+                  a.colom(href='portfolio-single.html')
+                    i.fas.fa-link
+                  h3 UI/UX Design
+          .col-lg-4.col-md-6.col-sm-6.col-12.no-padding.work-item.HTML.Photoshop.Development.element-item
+            .team-main-img.team-img.text-center
+              .work-img-items
+                img.team-imges(src='/images/my-work/3.png' alt='img')
+              .overlay-content
+                .inner-content.text
+                  a.colom(href='portfolio-single.html')
+                    i.fas.fa-link
+                  h3 Dashboard Design
+          .col-lg-4.col-md-6.col-sm-6.col-12.work-item.no-padding.ux.HTML.element-item
+            .team-main-img.team-img.text-center
+              .work-img-items
+                img.team-imges(src='/images/my-work/4.png' alt='img')
+              .overlay-content
+                .inner-content.text
+                  a.colom(href='portfolio-single.html')
+                    i.fas.fa-link
+                  h3 Web Design
+          .col-lg-4.col-md-6.col-sm-6.col-12.work-item.no-padding.ux.Development.element-item
+            .team-main-img.team-img.text-center
+              .work-img-items
+                img.team-imges(src='/images/my-work/5.png' alt='img')
+              .overlay-content
+                .inner-content.text
+                  a.colom(href='portfolio-single.html')
+                    i.fas.fa-link
+                  h3 Web Development
+          .col-lg-4.col-md-6.col-sm-6.col-12.work-item.no-padding.ux.Photoshop.Development.element-item
+            .team-main-img.team-img.text-center
+              .work-img-items
+                img.team-imges(src='/images/my-work/6.png' alt='img')
+              .overlay-content
+                .inner-content.text
+                  a(href='portfolio-single.html')
+                    i.fas.fa-link
+                  h3 App Design
+// My work area end
+// Experience & Education area Start
+section#education
+  .container
+    .center-content-box.text-center
+      p.top-heading Resume
+      h2 Experience &amp; Education
+      p.para-box
+        | Enthusiastic Software Developer with a background in project and, team management, and more. Skilled in working under pressure and adapting to new situations and challenges to best enhance organizational brand. I am curious, driven, motivated to learn and grow.
+    .row
+      .col-lg-12
+        .timeline-area
+          ul
+            li
+              .timline-item
+                .timeline-right
+                  h6.time-top-hed June 2021 - Present
+                  h3.time-heding SR. Software Engineer Consultant
+                  p.time-para
+                    | Developed robust, scalable, modular and API-centric infrastructures.
+                  br
+                  p
+                    | Worked with software development and testing team members to design and develop robust solutions to meet the Corporation's requirements for functionality, scalability and performance.
+                  br
+                  p
+                    | Collaborated with management, internal and development partners regarding software application design status and project progress
+                  br
+                  p 
+                    | Developed, Deployed, and Management of the `Business Data Capture App`
+
+                  h6.time-destination Corporate Affairs Commission
+                  h6.time-destination (Nigerian Corporate Registry)
+                .timeline-left-icon(style='top: -472px')
+                  i.glyph-icon.flaticon-promotion
+            li
+              .timline-item
+                .timeline-left
+                  h6.time-top-hed January 2021 -  May 2021
+                  h3.time-heding Intern
+                  p.time-para
+                    | Participated and led the team in architecture, design and implementation of back-end features using Node.js and some other relevant libraries.
+                  h6.time-destination Corporate Affairs Commission
+                  h6.time-destination (Nigerian Corporate Registry)
+                .timeline-right-icon(style='top: -207px')
+                  i.glyph-icon.flaticon-promotion
+            li
+              .timline-item
+                .timeline-right
+                  h6.time-top-hed January 2020 - December 2020
+                  h3.time-heding Freelancer
+                  p.time-para
+                    | Developed, Deployed, and management of crystalbluetech.com
+                  h6.time-destination crystalbluetech.com
+                .timeline-left-icon
+                  i.glyph-icon.flaticon-promotion
+            li
+              .timline-item
+                .timeline-left
+                  h6.time-top-hed January 2019 - December 2019
+                  h3.time-heding Backend
+                  p.time-para
+                    | Node.js, MongoDb, Express, REST API, etc
+                .timeline-right-icon(style='top: -87px')
+                  i.flaticon-mortarboard
+            li
+              .timline-item
+                .timeline-right
+                  h6.time-top-hed January 2018 - December 2018
+                  h3.time-heding Frontend
+                  p.time-para
+                    | HTML5, CSS3, Javascript, React, React-Native, Webpack, etc
+                  //- h6.time-destination w3Schools, freecodecamp.org, Udemy, Coursera
+                .timeline-left-icon(style='top: -88px')
+                  i.flaticon-mortarboard
+            li
+              .timline-item
+                .timeline-left
+                  h6.time-top-hed 2018 - 2022
+                  h3.time-heding Degree in Computer Science and Information Technology
+                  p.time-para
+                    | There comes a time for all ambitious, driven entrepreneurs, where software development becomes a priority, or at least, a major issue that occupies your busy, mile-a-minute professional consciousness.
+                  h6.time-destination Federal University Dutsinma
+                .timeline-right-icon(style='top: -219px')
+                  i.flaticon-mortarboard
+// Experience & Education area end
+// Awards area Start
+section#awards
+  .container
+    .row
+      .col-lg-4.col-md-12.col-sm-12.col-12
+        .award-area-text
+          .content-box
+            p Awards
+            h2 My Awards &amp; Certificate
+          .text-awards
+            p
+              | “O you who have believed, persevere and endure and remain stationed and fear Allah that you may be successful.” [Quran: Surah Ali-Imran 3: Ayah 200]
+            img(src='/images/logo/4.png' alt='')
+            img(src='/images/logo/5.png' alt='')
+      .col-lg-6.offset-lg-1.col-md-12.col-sm-12.col-12
+        .laPtop-img
+          img(src='/images/laptop-img.png' alt='img')
+        .award-slider.owl-carousel.owl-theme
+          .awards-item
+            img(src='/images/Web-Developer-cert.png' alt='')
+            h3 Web Development Certificate
+          .awards-item
+            img(src='/images/Ecommerce-cert.png' alt='')
+            h3 Ecommerce Development Certificate
+          .awards-item
+            img(src='/images/react-native-cert.png' alt='')
+            h3 React Native Certificate
+          //- .awards-item
+            img(src='/images/awards-2.png' alt='')
+            h3 Adobe Certificate
+// Awards area end
+// Testimonial area Start
+//- section#testimonial
+  .container
+    .center-content-box.text-center
+      p.top-heading Testimonial
+      h2 Client Say About Me
+      p.para-box
+        | Ummy text of the printing and typesetting industry. Lorem Ipsum has been.ummy text of the prinew ting and typesetting industry. Lorem Ipsum has been clear.
+    .row.margin-top-60
+      .col-lg-3.col-md-3
+        .testimonial-side-img
+          a(href='#!')
+            img(src='/images/testimonial/6.png' alt='img')
+      .col-lg-6.col-md-6
+        .testimonial-slider.owl-carousel.owl-theme
+          .testimonial-slider-item
+            .test-slider-content
+              .test-slider-top-content
+                .test-slider-img-text
+                  img(src='/images/home-3/com-2.png' alt='img')
+                  .test-slider-hed
+                    h3 Layle lee
+                    p employee, Andimpex
+                .soical-content
+                  a(href='#!')
+                    i.fab.fa-instagram.instagram
+                  a(href='#!')
+                    i.fab.fa-twitter.twitter
+              .test-slider-bottom-content
+                p
+                  | &ldquo;Lorem Ipsum is simply dummy text of the printing and the typset ting industry. Lorem Ipsum has been the try&apos;s stadard dummy text ever since the 1500s, galley of type and scrbled it to make a tycenturiesunchanged.&rdquo;
+                a(href='#!')
+                  img(src='/images/testimonial/singe.png' alt='')
+          .testimonial-slider-item
+            .test-slider-content
+              .test-slider-top-content
+                .test-slider-img-text
+                  img(src='/images/home-3/comm-3.png' alt='img')
+                  .test-slider-hed
+                    h3 Saiful Kazi
+                    p HR, Andimpex
+                .soical-content
+                  a(href='#!')
+                    i.fab.fa-instagram.instagram
+                  a(href='#!')
+                    i.fab.fa-twitter.twitter
+              .test-slider-bottom-content
+                p
+                  | &ldquo;We&rsquo;re on a mission to start a conversation with your customers in this fast connected world. Let&rsquo;s discover, build and grow your digital business. Let&rsquo;s discover, build and grow your digital business.&rdquo;
+                a(href='#!')
+                  img(src='/images/home-3/su.png' alt='')
+          .testimonial-slider-item
+            .test-slider-content
+              .test-slider-top-content
+                .test-slider-img-text
+                  img(src='/images/home-3/com-1.png' alt='img')
+                  .test-slider-hed
+                    h3 Aysha Apu
+                    p CEO, Andimpex
+                .soical-content
+                  a(href='#!')
+                    i.fab.fa-instagram.instagram
+                  a(href='#!')
+                    i.fab.fa-twitter.twitter
+              .test-slider-bottom-content
+                p
+                  | &ldquo;Build and grow your digital business. Let&rsquo;s discover, build and grow your digital business text ever since the 1500s, galley of type and scrbled it to make a tycentur iesuncha nged digital business.&rdquo;
+                a(href='#!')
+                  img(src='/images/home-3/saiful.png' alt='')
+      .col-lg-3.col-md-3
+        .testimonial-side-img
+          a(href='#!')
+            img(src='/images/testimonial/7.png' alt='img')
+// Testimonial area end
+// Patner area Start
+section#partner
+  .overlay-bg
+  .container
+    .row
+      .col-lg-5.col-md-12.col-sm-12.col-12
+        .parner-area
+          h2 Trusted Partner
+          p
+            | “Trust opens up new and unimagined possibilities!”
+      .col-lg-7.col-md-12.col-sm-12.col-12
+        .logo-slider.owl-carousel.owl-theme
+          .logo-item
+            a(href='#')
+              img(src='/images/logo/1.png' alt='img')
+          .logo-item
+            a(href='#')
+              img(src='/images/logo/2.png' alt='img')
+          .logo-item
+            a(href='#')
+              img(src='/images/logo/3.png' alt='img')
+          .logo-item
+            a(href='#')
+              img(src='/images/logo/1.png' alt='img')
+          .logo-item
+            a(href='#')
+              img(src='/images/logo/2.png' alt='img')
+          .logo-item
+            a(href='#')
+              img(src='/images/logo/3.png' alt='img')
+// Patne area end
+// Blog area Start
+section#blog-area-one
+  .container
+    .center-content-box.text-center
+      p.top-heading News &amp; Blog
+      h2 Blog
+      p.para-box
+        | There comes a time for all ambitious, driven entrepreneurs, where software development becomes a priority, or at least, a major issue that occupies your busy, mile-a-minute professional consciousness.
+    .row
+      .col-lg-4.col-md-6.col-sm-12.col-12
+        .blog-wrapper(data-aos='flip-right')
+          .blog-img
+            a(href='https://www.bitbean.com/blog/ways-software-development-helps-business/' target='_blank')
+              img(src='/images/blog/software-development--blog.png' alt='img')
+          .blog-details
+            h6
+              a(href='https://www.bitbean.com/blog/ways-software-development-helps-business/' target='_blank') IT and your Business
+            h3
+              a(href='https://www.bitbean.com/blog/ways-software-development-helps-business/' target='_blank') 7 Ways Software Development Can Help Your Business
+            p
+              | Software development or a custom solution is applicable to any industry and any company. 
+            ul
+              li
+                a(href='blog-single.html') March 13, 2019
+              li
+                a(href='https://www.bitbean.com/blog/ways-software-development-helps-business/' target='_blank')
+                  span Ephraim Arnstein
+      .col-lg-4.col-md-6.col-sm-12.col-12
+        .blog-wrapper(data-aos='flip-left')
+          .blog-img
+            a(href='blog-single.html')
+              img(src='/images/blog/UX-design-prototype-of-mobile-application.png' alt='img')
+          .blog-details
+            h6
+              a(href='blog-single.html') Design Insights
+            h3
+              a(href='blog-single.html') Understanding UI/UX Design and How They are Different
+            p
+              | UI focuses on enhancing the presentation and interactivity of a web or mobile application...
+            ul
+              li
+                a(href='blog-single.html') August, 2019
+              li
+                a(href='blog-single.html')
+                  span Ephraim Arnstein
+      .col-lg-4.col-md-6.col-sm-12.col-12
+        .blog-wrapper(data-aos='flip-down')
+          .blog-img
+            a(href='blog-single.html')
+              img(src='/images/blog/3.png' alt='img')
+          .blog-details
+            h6
+              a(href='blog-single.html') Discover
+            h3
+              a(href='blog-single.html') Why Investing in Technology Should be Part of Your New Norm
+            p
+              | More customers have now tasted what it's like to buy groceries online, order food for delivery...
+            ul
+              li
+                a(href='blog-single.html') March 12, 2019
+              li
+                a(href='blog-single.html')
+                  span Razu S.
+// Blog area end
+// footer area Start
+footer#footer-one
+  .container
+    .row.padding-bottom-100
+      .col-lg-6.col-md-12.col-sm-12.col-12
+        .contact-form-area
+          form.contact-form(action='#')
+            .form-group
+              input#name.form-control(type='text' name='name' placeholder='Your Name' required='')
+              .label-box
+            .form-group
+              input#email.form-control(type='text' name='email' placeholder='Your Mail' required='')
+              .label-box
+            .form-group
+              input#budget.form-control(type='text' name='budget' placeholder='Your Budget' required='')
+              .label-box
+            .form-group
+              textarea#message.form-control(rows='5' name='message' placeholder='Your Messages' required='')
+              .label-box
+            .form-btn.text-right
+              button.btn-1.contactsuccess Contact Me
+      .col-lg-6.col-md-12.col-sm-12.col-12
+        .contact-details
+          .contact-descreption
+            h2 Just Say Hello !
+            p
+              | Have a project in mind? Contact me!
+          .contact-location
+            ul
+              li
+                //- a(href='tel:') 0098 52 56985
+              li
+                a(href='mailto:danmusaabdullahi@gmail.com') danmusaabdullahi@gmail.com
+              li
+                | Along Minister's Hills, Abuja
+          .soical-icon-contact
+            ul
+              li
+                a(href='#!')
+                  i.fab.fa-instagram.instagram
+                a(href='#!')
+                  i.fab.fa-twitter.twitter
+                a(href='#!')
+                  i.fab.fa-behance.behance
+                a(href='#!')
+                  i.fab.fa-dribbble.dribbble
+  #copy-right
+    .container
+      .row
+        .col-lg-12
+          .copy-right-text.text-center
+            p Copyright &copy; 2022 abbadanmusa.dev, All rights Reserved.
+// footer area end
+// Particles js
+script(src='/javascripts/modules/particles.js')
+// Main App.js
+script(src='/dist/App.bundle.js')
+// Image particles
+//- script(type="text/javascript" src="/javascripts/modules/particle-image.min.js" defer)
+// Main js
+script(src='/javascripts/modules/jquery-3.3.1.min.js')
+// Bootstrap
+script(src='/javascripts/modules/bootstrap.min.js')
+// owl.carousel
+script(src='/javascripts/modules/owl.carousel.min.js')
+// pagepiling.js
+script(src='/javascripts/modules/wow.min.js')
+// magnify-popup
+script(src='/javascripts/modules/wow.min.js')
+// smoothscroll
+script(src='/javascripts/modules/smoothscroll.js')
+script(src='/javascripts/modules/slick.min.js')
+// typed.js
+script(src='/javascripts/modules/typed.min.js')
+// wow.min
+script(src='/javascripts/modules/magnify-popup.js')
+script(src='/javascripts/modules/images-loded.min.js')
+script(src='/javascripts/modules/parallax.min.js')
+script(src='/javascripts/modules/TweenMax.min.js')
+script(src='/javascripts/modules/isotope.min.js')
+// html5shiv
+script(src='/javascripts/modules/html5shiv.js')
+script(src='/javascripts/modules/popper.min.js')
+// respondl
+script(src='/javascripts/modules/respond.min.js')
+// prettifyl
+script(src='/javascripts/modules/prettify.js')
+script(src='/javascripts/modules/wow.min.js')
+script(src='/javascripts/modules/jquery.waypoints.min.js')
+// custom
+script(src='/javascripts/modules/contact.js')
+script(src='/javascripts/modules/custom.js')
+script.
+  var typed = new Typed("#typed", {
+  stringsElement: "#typed-strings",
+  typeSpeed: 200,
+  backSpeed: 200,
+  loop: true,
+  smartBackspace: true
+  });

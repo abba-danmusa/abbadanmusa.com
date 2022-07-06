@@ -1,0 +1,65 @@
+doctype html
+html
+  head
+    title= `${title} | ${h.siteName}`
+    link(rel="stylesheet", href="/sass/style.css")
+    link(rel='shortcut icon', type='image/png' href='/images/icons/snowman.png')
+    link(href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet")
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    
+  body.body
+    //- .swipe(style="width:100vw, height:100vh, background-color: rgb(250,250,250)")
+    .loader
+      p Full Stack Web Developer
+      != h.icon('myLogo')
+    .site
+      block header
+          != h.icon('mylogo')
+          nav.nav
+            a.name(href= '/') Abba Danmusa
+            .menu
+              a.menu__item(href= '/about-me') about
+              a.menu__item(href= '/blog') blog
+              a.menu__item(href= '/hire-me') hire-me
+            //- a.menu__item(href= '/contact-me')
+            //-   span contact
+            //- each item in h.menu
+            //-   li.menu__item
+            //-     a.menu__link(href=item.slug, class=currentPath.startsWith(item.slug) ? 'menu__link--active' : '')
+            //-       span(class=`${item.class}`) #{item.title}
+          //- a(href= '/')
+          
+          //- .name 
+          //-   each item in h.menu
+          //-     li.letter
+          //-       a(href=item.slug)
+          //-         div(class=item.class) #{item.letter}
+
+          //- a.contact(href= '/contact-me') 
+          //-   span contact
+      .content  
+        block content
+
+      footer.footer
+        block footer
+          -let icons = ['twitter-brands','linkedin-brands','stackoverflow-brands','github-brands']
+          .socials
+            each icon in icons
+              a.social(href="#")
+                != h.icon(icon)
+          .copyright
+
+            p privacy | contact
+
+            p &copy 2020 Abba Danmusa. 
+            p All rights reserved.
+          
+
+    block scripts
+      script(src='/dist/App.bundle.js', defer)
+      script(src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js")
+      script(src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js", defer)
+      script(src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js", defer)
+      script(src="https://kit.fontawesome.com/ca3717ead6.js" crossorigin="anonymous", defer)
+            
+          
