@@ -14,14 +14,14 @@ const helpers = require('./helpers')
 // create express app 
 const app = express()
 
-if (process.env.NODE_ENV === 'production') {
-    app.use((req, res, next) => {
-        if (req.header('x-forwarded-proto') !== 'https')
-            res.redirect(`https://${req.header('host')}${req.url}`)
-        else
-            next()
-    })
-}
+// if (process.env.NODE_ENV === 'production') {
+//     app.use((req, res, next) => {
+//         if (req.header('x-forwarded-proto') !== 'https')
+//             res.redirect(`https://${req.header('host')}${req.url}`)
+//         else
+//             next()
+//     })
+// }
 
 // view engine setup
 app.use(express.static('public'))
